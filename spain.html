@@ -254,6 +254,175 @@ img{
 border-radius:20px;
 
 }
+  /* ========================= */
+/* FIX ДЛЯ ТЕЛЕФОНА */
+/* ========================= */
+
+html,
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    max-width:100%;
+    overflow-x:hidden !important;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container,
+.container-fluid,
+.row{
+    max-width:100%;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+.hero{
+    width:100%;
+    overflow:hidden;
+}
+
+section{
+    overflow:hidden;
+}
+
+.navbar{
+    width:100%;
+    overflow:hidden;
+}
+
+.navbar-collapse{
+    overflow:hidden;
+}
+
+.navbar-nav{
+    align-items:center;
+}
+
+.nav-link{
+    white-space:nowrap;
+}
+
+/* ========================= */
+/* Телефон */
+/* ========================= */
+
+@media (max-width:991px){
+
+body{
+    overflow-x:hidden;
+}
+
+.container{
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.navbar-brand{
+    font-size:22px;
+}
+
+.navbar-collapse{
+
+    margin-top:15px;
+
+    background:rgba(20,20,35,.97);
+
+    border-radius:20px;
+
+    padding:15px;
+
+    text-align:center;
+
+}
+
+.navbar-nav{
+
+    gap:12px;
+
+}
+
+.nav-link{
+
+    font-size:18px;
+
+    padding:12px;
+
+}
+
+.hero h1{
+
+    font-size:45px;
+
+}
+
+.hero p{
+
+    font-size:18px;
+
+}
+
+.glass{
+
+    padding:20px;
+
+}
+
+.section-title{
+
+    font-size:34px;
+
+}
+
+}
+
+/* ========================= */
+/* Очень маленькие телефоны */
+/* ========================= */
+
+@media (max-width:576px){
+
+.hero{
+
+padding-top:100px;
+
+}
+
+.hero h1{
+
+font-size:35px;
+
+}
+
+.hero p{
+
+font-size:16px;
+
+}
+
+.btn{
+
+width:100%;
+
+margin-top:10px;
+
+}
+
+.section-title{
+
+font-size:28px;
+
+}
+
+}
 
 </style>
 
