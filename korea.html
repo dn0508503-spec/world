@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>South Korea</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:"Segoe UI",sans-serif;
+}
+
+body{
+
+background:
+linear-gradient(rgba(255,192,203,.18),rgba(255,255,255,.2)),
+url("........png");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
+overflow-x:hidden;
+
+color:white;
+
+}
+
+/* Лепестки */
+
+#petals{
+
+position:fixed;
+
+left:0;
+
+top:0;
+
+width:100%;
+
+height:100%;
+
+pointer-events:none;
+
+overflow:hidden;
+
+z-index:1;
+
+}
+
+.petal{
+
+position:absolute;
+
+top:-50px;
+
+font-size:22px;
+
+animation:fall linear infinite;
+
+opacity:.85;
+
+}
+
+@keyframes fall{
+
+0%{
+
+transform:translateY(-50px) rotate(0deg);
+
+}
+
+100%{
+
+transform:translateY(110vh) rotate(360deg);
+
+}
+
+}
+
+.navbar{
+
+background:rgba(255,255,255,.12)!important;
+
+backdrop-filter:blur(18px);
+
+}
+
+.navbar-brand{
+
+font-size:28px;
+
+font-weight:bold;
+
+color:white!important;
+
+}
+
+.nav-link{
+
+color:white!important;
+
+font-weight:bold;
+
+margin-left:15px;
+
+}
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+
+align-items:center;
+
+background:rgba(0,0,0,.45);
+
+}
+
+.hero h1{
+
+font-size:70px;
+
+font-weight:900;
+
+}
+
+.hero p{
+
+font-size:22px;
+
+margin-top:20px;
+
+line-height:1.8;
+
+max-width:700px;
+
+}
+
+.btn-main{
+
+padding:15px 35px;
+
+border-radius:40px;
+
+font-size:20px;
+
+font-weight:bold;
+
+background:#ff5fa2;
+
+border:none;
+
+transition:.4s;
+
+}
+
+.btn-main:hover{
+
+transform:translateY(-5px);
+
+background:#ff3b8d;
+
+}
+
+.section-title{
+
+font-size:45px;
+
+font-weight:bold;
+
+text-align:center;
+
+margin:80px 0 50px;
+
+text-shadow:0 0 20px pink;
+
+}
+
+.glass{
+
+background:rgba(255,255,255,.15);
+
+backdrop-filter:blur(20px);
+
+border-radius:25px;
+
+padding:35px;
+
+border:1px solid rgba(255,255,255,.25);
+
+box-shadow:0 15px 40px rgba(0,0,0,.25);
+
+margin-bottom:35px;
+
+}
+
+.glass h2{
+
+margin-bottom:20px;
+
+font-weight:bold;
+
+}
+
+.glass p{
+
+line-height:1.9;
+
+font-size:18px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="petals"></div>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+
+<div class="container">
+
+<a class="navbar-brand" href="index.html">
+
+🌸 South Korea
+
+</a>
+
+<button class="navbar-toggler"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+
+<a class="nav-link" href="index.html">
+
+Главная
+
+</a>
+
+</li>
+
+
+</li>
+<li class="nav-item">
+<a class="nav-link" href="spain.html">🇪🇸 Испания</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="use.html">🇺🇸 Америка</a>
+</li>
+</ul>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+<section class="hero">
+
+<div class="container">
+
+<h1>
+
+🇰🇷 Южная Корея
+
+</h1>
+
+<p>
+
+Южная Корея — страна современных технологий,
+богатой культуры, красивой природы,
+древних дворцов и мирового феномена K-pop.
+Она сочетает многовековые традиции
+с самыми передовыми инновациями.
+
+</p>
+
+<br>
+
+<a href="#history" class="btn btn-main">
+
+Узнать больше
+
+</a>
+
+</div>
+
+</section>
+
+<div class="container">
+
+<h1 class="section-title" id="history">
+
+🏯 История
+
+</h1>
+
+<div class="glass">
+
+<h2>История Южной Кореи</h2>
+
+<p>
+
+История Кореи насчитывает тысячи лет.
+Страна прошла путь от древних королевств
+до одной из самых технологически развитых стран мира.
+После Корейской войны Южная Корея начала стремительно развиваться,
+создав мощную экономику, современную инфраструктуру
+и известные на весь мир компании.
+
+</p>
+
+</div>
+
+<h1 class="section-title" id="culture">
+
+🎎 Культура
+
+</h1>
+
+<div class="glass">
+
+<h2>Традиции</h2>
+
+<p>
+
+Корейская культура известна уважением к семье,
+старшим поколениям и традициям.
+Национальная одежда ханбок,
+праздники,
+чайные церемонии
+и традиционные дворцы являются важной частью жизни страны.
+
+</p>
+
+</div>
+<h1 class="section-title" id="kpop">
+
+🎤 K-pop
+
+</h1>
+
+<div class="glass">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<img src="df606f9b-8899-4aad-9217-45236faa5c23.png"
+class="img-fluid rounded-4">
+
+</div>
+
+<div class="col-lg-6">
+
+<h2>Музыка, покорившая мир</h2>
+
+<p>
+
+K-pop — один из самых популярных музыкальных жанров в мире.
+Он сочетает современную музыку, танцы, яркие костюмы
+и впечатляющие шоу.
+
+Самыми известными группами являются BTS,
+BLACKPINK,
+EXO,
+TWICE,
+SEVENTEEN,
+Stray Kids,
+NewJeans и многие другие.
+
+Сегодня миллионы поклонников по всему миру
+изучают корейский язык,
+посещают концерты
+и интересуются культурой Южной Кореи.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<h1 class="section-title">
+
+🎬 Корейские дорамы
+
+</h1>
+
+<div class="glass">
+
+<div class="row">
+
+<div class="col-lg-6">
+
+<h2>Популярные дорамы</h2>
+
+<p>
+
+Южная Корея знаменита своими сериалами.
+Они отличаются интересным сюжетом,
+качественной съёмкой
+и красивой музыкой.
+
+Известные дорамы:
+
+</p>
+
+<ul>
+
+<li>Crash Landing on You</li>
+
+<li>Goblin</li>
+
+<li>True Beauty</li>
+
+<li>Business Proposal</li>
+
+<li>Squid Game</li>
+
+<li>Extraordinary Attorney Woo</li>
+
+<li>Descendants of the Sun</li>
+
+</ul>
+
+</div>
+
+<div class="col-lg-6">
+
+<img src="fd0e54dd-2285-4cd6-9159-1095a91cf3d7.png"
+class="img-fluid rounded-4">
+
+</div>
+
+</div>
+
+</div>
+
+<h1 class="section-title">
+
+🍜 Национальная кухня
+
+</h1>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="glass text-center">
+
+<h2>🥬 Кимчи</h2>
+
+<p>
+
+Самое известное традиционное блюдо Кореи.
+Готовится из пекинской капусты
+с острыми специями.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="glass text-center">
+
+<h2>🍜 Рамён</h2>
+
+<p>
+
+Популярная лапша быстрого приготовления,
+которую любят как жители страны,
+так и туристы.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="glass text-center">
+
+<h2>🍖 Барбекю</h2>
+
+<p>
+
+Корейское BBQ —
+одно из самых популярных гастрономических развлечений,
+где мясо готовят прямо за столом.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<h1 class="section-title">
+
+🏙️ Сеул
+
+</h1>
+
+<div class="glass">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<img src="https://i.pinimg.com/736x/83/89/52/83895264750bf768114d2c65459641db.jpg"
+class="img-fluid rounded-4">
+
+</div>
+
+<div class="col-lg-6">
+
+<h2>Столица Южной Кореи</h2>
+
+<p>
+
+Сеул —
+огромный современный мегаполис,
+в котором древние дворцы соседствуют
+с небоскрёбами,
+торговыми центрами,
+кафе,
+парками
+и современными технологиями.
+
+Здесь находятся дворец Кёнбоккун,
+башня N Seoul Tower,
+район Мёндон,
+река Хан
+и множество красивых мест для прогулок.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+<h1 class="section-title">
+
+🏯 Достопримечательности
+
+</h1>
+
+<div class="row g-4">
+
+<div class="col-lg-4">
+
+<div class="glass text-center">
+
+<h2>🏰 Дворец Кёнбоккун</h2>
+
+<p>
+
+Главный королевский дворец Сеула,
+построенный в XIV веке.
+Одно из самых красивых исторических мест Южной Кореи.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="glass text-center">
+
+<h2>🗼 N Seoul Tower</h2>
+
+<p>
+
+Башня высотой более 230 метров,
+с которой открывается потрясающий вид
+на весь Сеул.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="glass text-center">
+
+<h2>🌸 Остров Нами</h2>
+
+<p>
+
+Одно из самых популярных мест для прогулок,
+особенно весной,
+когда цветёт сакура.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<h1 class="section-title">
+
+⚽ Спорт
+
+</h1>
+
+<div class="glass">
+
+<h2>Популярные виды спорта</h2>
+
+<p>
+
+Жители Южной Кореи любят спорт.
+Самыми популярными являются:
+
+</p>
+
+<ul>
+
+<li>🥋 Тхэквондо (национальный вид спорта)</li>
+
+<li>⚽ Футбол</li>
+
+<li>⚾ Бейсбол</li>
+
+<li>🏹 Стрельба из лука</li>
+
+<li>⛸️ Конькобежный спорт</li>
+
+<li>🏸 Бадминтон</li>
+
+</ul>
+
+</div>
+
+<h1 class="section-title">
+
+🎓 Образование
+
+</h1>
+
+<div class="glass">
+
+<h2>Одна из лучших систем образования</h2>
+
+<p>
+
+Южная Корея входит в число стран
+с самым высоким уровнем образования.
+Ученики уделяют много времени учёбе,
+а университеты,
+такие как Seoul National University,
+KAIST и Yonsei University,
+известны во всём мире.
+
+</p>
+
+</div>
+
+<h1 class="section-title">
+
+✅ Плюсы и ❌ Минусы
+
+</h1>
+
+<div class="row g-4">
+
+<div class="col-lg-6">
+
+<div class="glass">
+
+<h2>✅ Плюсы</h2>
+
+<ul>
+
+<li>🌸 Очень безопасная страна</li>
+
+<li>🚄 Современный транспорт</li>
+
+<li>📶 Быстрый интернет</li>
+
+<li>💻 Развитые технологии</li>
+
+<li>🎤 K-pop и дорамы</li>
+
+<li>🍜 Вкусная кухня</li>
+
+<li>🏙️ Красивые города</li>
+
+<li>🌺 Цветущая сакура весной</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="col-lg-6">
+
+<div class="glass">
+
+<h2>❌ Минусы</h2>
+
+<ul>
+
+<li>💸 Высокая стоимость жизни</li>
+
+<li>📚 Большая учебная нагрузка</li>
+
+<li>💼 Долгий рабочий день</li>
+
+<li>🗣️ Сложный корейский язык</li>
+
+<li>🏠 Дорогое жильё</li>
+
+<li>🚶 Иногда очень много людей</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<h1 class="section-title">
+
+💖 Интересные факты
+
+</h1>
+
+<div class="row g-4">
+
+<div class="col-md-3">
+
+<div class="glass text-center">
+
+<h1>5 000+</h1>
+
+<p>лет истории</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="glass text-center">
+
+<h1>51 млн</h1>
+
+<p>население</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="glass text-center">
+
+<h1>24 часа</h1>
+
+<p>активная жизнь города</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="glass text-center">
+
+<h1>🌸</h1>
+
+<p>весной цветёт сакура</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<footer class="text-center py-5 mt-5">
+
+<div class="container">
+
+<h2>🇰🇷 South Korea</h2>
+
+<p>
+
+Спасибо за посещение страницы о Южной Корее.
+Надеемся, вы узнали много нового!
+
+</p>
+
+<hr>
+
+<p>
+
+Made with ❤️ by Dildora
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+const petals=document.getElementById("petals");
+
+for(let i=0;i<35;i++){
+
+const petal=document.createElement("div");
+
+petal.className="petal";
+
+petal.innerHTML="🌸";
+
+petal.style.left=Math.random()*100+"vw";
+
+petal.style.animationDuration=(6+Math.random()*8)+"s";
+
+petal.style.animationDelay=Math.random()*8+"s";
+
+petal.style.fontSize=(14+Math.random()*18)+"px";
+
+petals.appendChild(petal);
+
+}
+
+const observer=new IntersectionObserver(entries=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity="1";
+
+entry.target.style.transform="translateY(0)";
+
+}
+
+});
+
+});
+
+document.querySelectorAll(".glass,.section-title").forEach(el=>{
+
+el.style.opacity="0";
+
+el.style.transform="translateY(60px)";
+
+el.style.transition="1s";
+
+observer.observe(el);
+
+});
+
+</script>
+
+</body>
+
+</html>

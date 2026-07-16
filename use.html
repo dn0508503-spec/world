@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>USA</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:"Segoe UI",sans-serif;
+}
+
+body{
+
+background:
+linear-gradient(rgba(5,15,45,.75),rgba(0,0,0,.8)),
+url("amerika.jpg");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
+overflow-x:hidden;
+color:white;
+
+}
+
+/* Звёзды */
+
+#stars{
+
+position:fixed;
+
+left:0;
+top:0;
+
+width:100%;
+height:100%;
+
+pointer-events:none;
+overflow:hidden;
+z-index:1;
+
+}
+
+.star{
+
+position:absolute;
+
+top:-40px;
+
+color:#FFD700;
+
+animation:fall linear infinite;
+
+opacity:.9;
+
+}
+
+@keyframes fall{
+
+0%{
+
+transform:translateY(-50px);
+
+}
+
+100%{
+
+transform:translateY(110vh);
+
+}
+
+}
+
+.navbar{
+
+background:rgba(5,20,60,.45)!important;
+
+backdrop-filter:blur(18px);
+
+}
+
+.navbar-brand{
+
+font-size:30px;
+font-weight:bold;
+color:white!important;
+
+}
+
+.nav-link{
+
+color:white!important;
+font-weight:bold;
+margin-left:18px;
+
+}
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+align-items:center;
+
+background:rgba(0,0,0,.45);
+
+}
+
+.hero h1{
+
+font-size:72px;
+font-weight:900;
+
+}
+
+.hero p{
+
+font-size:22px;
+line-height:1.8;
+max-width:720px;
+
+}
+
+.btn-main{
+
+padding:15px 35px;
+
+background:#2563eb;
+
+border:none;
+
+border-radius:40px;
+
+font-size:20px;
+
+font-weight:bold;
+
+transition:.4s;
+
+}
+
+.btn-main:hover{
+
+background:#3b82f6;
+
+transform:translateY(-5px);
+
+}
+
+.section-title{
+
+font-size:46px;
+
+font-weight:bold;
+
+text-align:center;
+
+margin:80px 0 50px;
+
+text-shadow:0 0 20px #60a5fa;
+
+}
+
+.glass{
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(18px);
+
+padding:35px;
+
+border-radius:25px;
+
+border:1px solid rgba(255,255,255,.15);
+
+margin-bottom:30px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.35);
+
+}
+
+.glass h2{
+
+margin-bottom:20px;
+
+font-weight:bold;
+
+}
+
+.glass p{
+
+font-size:18px;
+
+line-height:1.9;
+
+}
+
+img{
+
+border-radius:20px;
+
+width:100%;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="stars"></div>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+
+<div class="container">
+
+<a class="navbar-brand" href="index.html">
+
+🇺🇸 USA
+
+</a>
+
+<button class="navbar-toggler"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+
+<a class="nav-link" href="index.html">
+
+Главная
+
+</a>
+
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="korea.html">🇰🇷 Корея</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="spain.html">🇪🇸 Испания</a>
+</li>
+
+
+
+
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="container">
+
+<h1>
+
+🇺🇸 Соединённые Штаты Америки
+
+</h1>
+
+<p>
+
+США — одна из крупнейших стран мира,
+известная своими современными технологиями,
+Голливудом,
+NASA,
+крупнейшими университетами,
+спортивными лигами,
+небоскрёбами
+и национальными парками.
+
+</p>
+
+<br>
+
+<a href="#history" class="btn btn-main">
+
+Начать путешествие
+
+</a>
+
+</div>
+
+</section>
+
+<div class="container">
+
+<h1 class="section-title" id="history">
+
+📜 История США
+
+</h1>
+
+<div class="glass">
+
+<h2>История</h2>
+
+<p>
+
+Соединённые Штаты получили независимость в XVIII веке
+и со временем стали одной из ведущих мировых держав.
+Сегодня страна играет важную роль в мировой экономике,
+науке, культуре и технологиях.
+
+</p>
+
+</div>
+
+<h1 class="section-title" id="hollywood">
+
+🎬 Голливуд
+
+</h1>
+
+<div class="glass">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<img src="https://i.pinimg.com/1200x/fd/96/3d/fd963da47bde85c6b688df7ea83e0487.jpg"
+class="img-fluid">
+
+</div>
+
+<div class="col-lg-6">
+
+<h2>Мировая киноиндустрия</h2>
+
+<p>
+
+Голливуд — один из самых известных центров кино в мире.
+Здесь создаются тысячи фильмов,
+которые ежегодно смотрят миллионы людей.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+<h1 class="section-title" id="technology">
+
+💻 Технологии
+
+</h1>
+
+<div class="glass">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<img src="e65826ce-04c5-4edf-878d-c437a1b0ec78.png"
+class="img-fluid">
+
+</div>
+
+<div class="col-lg-6">
+
+<h2>Мировой центр инноваций</h2>
+
+<p>
+
+США являются одним из мировых лидеров в области технологий.
+Именно здесь появились многие известные компании, которые создают
+смартфоны, компьютеры, поисковые системы, социальные сети
+и программное обеспечение.
+
+</p>
+
+<ul>
+
+<li>🍎 Apple</li>
+
+<li>🪟 Microsoft</li>
+
+<li>🔍 Google</li>
+
+<li>🛒 Amazon</li>
+
+<li>📱 Meta</li>
+
+<li>💻 NVIDIA</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<h1 class="section-title">
+
+🚀 NASA
+
+</h1>
+
+<div class="glass">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<h2>Освоение космоса</h2>
+
+<p>
+
+NASA — космическое агентство США,
+которое занимается исследованием космоса,
+созданием спутников,
+изучением Марса,
+Луны
+и других планет.
+
+Именно NASA отправило первых людей на Луну
+и продолжает участвовать в крупнейших космических проектах.
+
+</p>
+
+</div>
+
+<div class="col-lg-6">
+
+<img src="https://i.pinimg.com/736x/ee/00/5d/ee005ddecd48aa08acf1790408b9b165.jpg"
+class="img-fluid">
+
+</div>
+
+</div>
+
+</div>
+
+<h1 class="section-title">
+
+🏀 Спорт
+
+</h1>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="glass text-center">
+
+<h2>🏀 NBA</h2>
+
+<p>
+
+Самая популярная баскетбольная лига мира,
+где играют лучшие баскетболисты планеты.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="glass text-center">
+
+<h2>🏈 NFL</h2>
+
+<p>
+
+Национальная футбольная лига США —
+одна из самых прибыльных спортивных лиг мира.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="glass text-center">
+
+<h2>⚾ MLB</h2>
+
+<p>
+
+Высшая бейсбольная лига,
+которая существует более ста лет
+и является символом американского спорта.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<h1 class="section-title">
+
+🗽 Известные места
+
+</h1>
+
+<div class="glass">
+
+<div class="row">
+
+<div class="col-lg-6">
+
+<img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?w=900"
+class="img-fluid">
+
+</div>
+
+<div class="col-lg-6">
+
+<h2>Что посетить?</h2>
+
+<ul>
+
+<li>🗽 Статуя Свободы</li>
+
+<li>🏙️ Таймс-сквер</li>
+
+<li>🌉 Мост Золотые Ворота</li>
+
+<li>🏞️ Гранд-Каньон</li>
+
+<li>🎬 Голливуд</li>
+
+<li>🌴 Майами-Бич</li>
+
+<li>🏔️ Йеллоустонский парк</li>
+
+<li>🌆 Центральный парк Нью-Йорка</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<h1 class="section-title">
+
+🍔 Национальная кухня
+
+</h1>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="glass text-center">
+
+<h2>🍔 Бургер</h2>
+
+<p>
+
+Одно из самых известных американских блюд,
+которое стало популярным во всём мире.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="glass text-center">
+
+<h2>🌭 Хот-дог</h2>
+
+<p>
+
+Любимая уличная еда,
+которую можно встретить практически в каждом городе США.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="glass text-center">
+
+<h2>🥞 Панкейки</h2>
+
+<p>
+
+Традиционный американский завтрак,
+который подают с сиропом,
+ягодами или фруктами.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+<h1 class="section-title">
+
+✅ Плюсы и ❌ Минусы
+
+</h1>
+
+<div class="row g-4">
+
+<div class="col-lg-6">
+
+<div class="glass">
+
+<h2>✅ Плюсы</h2>
+
+<ul>
+
+<li>💻 Передовые технологии</li>
+
+<li>🎓 Лучшие университеты мира</li>
+
+<li>💼 Большие возможности для карьеры</li>
+
+<li>🏀 Развитый спорт</li>
+
+<li>🎬 Голливуд и индустрия развлечений</li>
+
+<li>🚀 Космические исследования NASA</li>
+
+<li>🌎 Большое разнообразие природы</li>
+
+<li>🏙️ Современные мегаполисы</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="col-lg-6">
+
+<div class="glass">
+
+<h2>❌ Минусы</h2>
+
+<ul>
+
+<li>💰 Высокая стоимость жизни во многих городах</li>
+
+<li>🏥 Дорогое медицинское обслуживание</li>
+
+<li>🚗 Во многих местах сложно без автомобиля</li>
+
+<li>🏠 Высокие цены на жильё</li>
+
+<li>🚦 Пробки в крупных городах</li>
+
+<li>🌪️ В некоторых регионах бывают ураганы, торнадо и другие природные явления</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<h1 class="section-title">
+
+📊 Интересные факты
+
+</h1>
+
+<div class="row g-4">
+
+<div class="col-md-3">
+
+<div class="glass text-center">
+
+<h1>50</h1>
+
+<p>штатов</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="glass text-center">
+
+<h1>340+ млн</h1>
+
+<p>население</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="glass text-center">
+
+<h1>🚀</h1>
+
+<p>лидер в космических исследованиях</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="glass text-center">
+
+<h1>🎬</h1>
+
+<p>центр мировой киноиндустрии</p>
+
+</div>
+
+</div>
+
+</div>
+
+<footer class="text-center py-5 mt-5">
+
+<div class="container">
+
+<h2>🇺🇸 United States of America</h2>
+
+<p>
+
+Спасибо за посещение страницы о США.
+Здесь собрана краткая информация об истории,
+технологиях, спорте, известных местах и культуре страны.
+
+</p>
+
+<hr>
+
+<p>
+
+Made with ❤️ by Dildora
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+/* Падающие звёзды */
+
+const stars = document.getElementById("stars");
+
+for(let i=0;i<40;i++){
+
+const star=document.createElement("div");
+
+star.className="star";
+
+star.innerHTML="⭐";
+
+star.style.left=Math.random()*100+"vw";
+
+star.style.animationDuration=(5+Math.random()*7)+"s";
+
+star.style.animationDelay=Math.random()*6+"s";
+
+star.style.fontSize=(12+Math.random()*18)+"px";
+
+stars.appendChild(star);
+
+}
+
+/* Появление блоков */
+
+const observer=new IntersectionObserver(entries=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity="1";
+
+entry.target.style.transform="translateY(0)";
+
+}
+
+});
+
+});
+
+document.querySelectorAll(".glass,.section-title").forEach(el=>{
+
+el.style.opacity="0";
+
+el.style.transform="translateY(60px)";
+
+el.style.transition="1s ease";
+
+observer.observe(el);
+
+});
+
+/* Кнопка "Наверх" */
+
+const topButton=document.createElement("button");
+
+topButton.innerHTML="⬆";
+
+topButton.style.position="fixed";
+
+topButton.style.bottom="25px";
+
+topButton.style.right="25px";
+
+topButton.style.width="55px";
+
+topButton.style.height="55px";
+
+topButton.style.borderRadius="50%";
+
+topButton.style.border="none";
+
+topButton.style.background="#2563eb";
+
+topButton.style.color="white";
+
+topButton.style.fontSize="22px";
+
+topButton.style.cursor="pointer";
+
+topButton.style.display="none";
+
+topButton.style.zIndex="999";
+
+document.body.appendChild(topButton);
+
+window.addEventListener("scroll",()=>{
+
+topButton.style.display=window.scrollY>400?"block":"none";
+
+});
+
+topButton.onclick=()=>{
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+};
+
+</script>
+
+</body>
+
+</html>
